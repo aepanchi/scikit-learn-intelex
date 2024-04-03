@@ -17,10 +17,15 @@
 {% endblock %}
 
 {% block menu %}
+  {% include "versions.html" %}
+  {{ super() }}
+{% endblock %}
+
+{% block menu %}
     <script src="https://giscus.app/client.js"
             data-repo="aepanchi/scikit-learn-intelex"
             data-repo-id="R_kgDOLpNH2Q"
-            data-category-id="[ENTER CATEGORY ID HERE]"
+            data-category-id="DIC_kwDOLpNH2c4CebiR"
             data-mapping="pathname"
             data-strict="0"
             data-reactions-enabled="1"
@@ -31,10 +36,5 @@
             data-loading="lazy"
             crossorigin="anonymous"
             async>
-</script>
-{% endblock %}
-
-{% block menu %}
-  {% include "versions.html" %}
-  {{ super() }}
+    </script>
 {% endblock %}
