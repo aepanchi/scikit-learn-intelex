@@ -121,3 +121,10 @@ div.quotation {
 
 a#wap_dns {display: none;}
 
+button#version-switcher-button {
+   background-color:  #2980b9;
+}
+
+div#version-switcher-dropdown {
+   display: inline;
+}
